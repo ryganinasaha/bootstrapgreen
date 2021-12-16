@@ -12,10 +12,11 @@
 </head>
 <body>
 
+<div class="container">
     <nav class="navbar navbar-expand-lg  header navbar-dark">
         <div class="container-fluid px-5 fs-4">
             <a class="navbar-brand" href="#">
-                <i class="fas fa-chalkboard-teacher fs-1"> </i>
+                <i class="fas fa-chalkboard-teacher fs-2"> </i>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -44,31 +45,68 @@
         <div class="row mx-0">
             <div class="col">
                 <h3 class="text-center">News</h3>
-                <table class="table">
-                    <tbody>
-                        <tr>
-                            <td>
-                                <img src="icons/holiday.png" alt="holiday">
-                                <spam>1 day ego</spam>
-                                <h4>Weekends</h4>
-                                <p>Dear students, kindly be informed that there will be no lessons on 5th snd 6th
-                                    April at the Academy due to the holiday.</p>
-                            </td>
-                        </tr>
-                    <tr>
-                        <td>
-                            <div class="card" style="width: 18rem;">
-                                <img src="..." class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Заголовок карточки</h5>
-                                    <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
-                                    <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-                    </tbody>
-                </table>
+                <div class="news">
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="mb-3" style="max-width: 540px;">
+                                        <div class="row g-0">
+                                            <div class="col" style="max-width: 25%;">
+                                                <img src="icons/holiday.png" class="img-fluid rounded-start" alt="holiday">
+                                            </div>
+                                            <div class="col">
+                                                <div class="card-body position-relative">
+                                                    <h5 class="card-title d-inline-flex ">Weekends</h5>
+                                                    <small class="text-muted d-inline-flex position-absolute end-0">1 day ego</small>
+                                                    <p class="card-text">Dear students, kindly be informed that there will be no lessons on 5th snd 6th
+                                                        April at the Academy due to the holiday.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="mb-3" style="max-width: 540px;">
+                                        <div class="row g-0">
+                                            <div class="col">
+                                                <div class="card-body position-relative">
+                                                    <h5 class="card-title d-inline-flex ">Programming consultations</h5>
+                                                    <small class="text-muted d-inline-flex position-absolute end-0">3 day ego</small>
+                                                    <p class="card-text">This Sunday, March 26 at 1:00 pm the Academy will be holding programming consultation for first-year students.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="mb-3" style="max-width: 540px;">
+                                        <div class="row g-0">
+                                            <div class="col" style="max-width: 25%;">
+                                                <img src="icons/bank.png" class="img-fluid rounded-start" alt="bank">
+                                            </div>
+                                            <div class="col">
+                                                <div class="card-body position-relative">
+                                                    <h5 class="card-title d-inline-flex ">Meeting withe ABC Bank</h5>
+                                                    <small class="text-muted d-inline-flex position-absolute end-0">20.03.2019</small>
+                                                    <p class="card-text">On Monday, March 27 at 7:00 pm, we invite you to a business meeting with ABC Bank</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="coll text-center my-3">
+                    <button type="button" class="btn btn-secondary w-100">More</button>
+                </div>
+
             </div>
             <div class="col">
                 <h3 class="text-center">Rewards</h3>
@@ -76,7 +114,7 @@
 
         </div>
     </div>
-
+</div>
 
     <script src="biblioteka/popper.min.js"></script>
     <script src="/biblioteka/jquery-3.5.1.slim.min.js"></script>
